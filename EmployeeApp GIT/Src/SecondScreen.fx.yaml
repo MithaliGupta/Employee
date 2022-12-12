@@ -116,10 +116,10 @@ SecondScreen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Height: =37
-        Size: =16
-        Text: ="Hi! Ruchika"
-        Width: =176
-        X: =1171
+        Size: =13
+        Text: ="Hi! "
+        Width: =50
+        X: =1173
         Y: =16
         ZIndex: =7
 
@@ -1199,6 +1199,21 @@ SecondScreen As screen:
         X: =1221
         Y: =121
         ZIndex: =41
+
+    Label7 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =VarEName
+        X: =1206
+        Y: =13
+        ZIndex: =45
 
     Group2 As group:
         Height: =5
