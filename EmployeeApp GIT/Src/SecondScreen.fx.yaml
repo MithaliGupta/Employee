@@ -1147,8 +1147,8 @@ SecondScreen As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Open"))
-        Width: =50
-        X: =648
+        Width: =33
+        X: =662
         Y: =121
         ZIndex: =38
 
@@ -1162,10 +1162,11 @@ SecondScreen As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
+        Height: =33
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "On hold"))
-        Width: =50
-        X: =841
-        Y: =128
+        Width: =45
+        X: =851
+        Y: =124
         ZIndex: =39
 
     Label6_2 As label:
@@ -1178,10 +1179,11 @@ SecondScreen As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
+        Height: =43
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Awaiting confirmation"))
-        Width: =50
-        X: =1038
-        Y: =114
+        Width: =41
+        X: =1032
+        Y: =119
         ZIndex: =40
 
     Label6_3 As label:
@@ -1195,8 +1197,8 @@ SecondScreen As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Closed"))
-        Width: =50
-        X: =1210
+        Width: =45
+        X: =1221
         Y: =121
         ZIndex: =41
 
