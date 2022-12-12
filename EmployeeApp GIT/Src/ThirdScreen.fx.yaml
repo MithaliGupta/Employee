@@ -267,7 +267,7 @@ ThirdScreen As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Parent.Default
+                Default: =UID
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -396,13 +396,14 @@ ThirdScreen As screen:
                 HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@EmployeeIncidentTracker].EmpName)
+                IsSearchable: =false
+                Items: =LookUp(ListLogin,UID=Title,EmpName)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(0, 120, 212, 1)
                 SearchFields: =["DisplayName"]
-                SearchItems: =Choices(EmployeeIncidentTracker.EmpName,DataCardValue30.SearchText)
+                SearchItems: =[]
                 SelectionFill: =RGBA(0, 120, 212, 1)
                 SelectMultiple: =false
                 Template: =ListItemTemplate.Person
