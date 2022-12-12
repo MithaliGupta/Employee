@@ -216,13 +216,13 @@ ThirdScreen As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =EmployeeIncidentTracker
         DefaultMode: =If(LVarEdit,If(IsBlank(LVarRecSub),FormMode.New,FormMode.Edit),FormMode.View)
-        Height: =487
+        Height: =415
         Item: =LVarRecSub
         OnSuccess: |-
             =UpdateContext({LVarRecSub:FormThreeInOne.LastSubmit});
             UpdateContext({LVarEdit:false})
         Width: =1365
-        Y: =209
+        Y: =251
         ZIndex: =14
 
         Title_DataCard3 As typedDataCard.textualEditCard:
@@ -1405,6 +1405,7 @@ ThirdScreen As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
+        Height: =100
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
@@ -1416,6 +1417,7 @@ ThirdScreen As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =15
         Text: ="Save"
+        Width: =150
         X: =1136
         Y: =119
         ZIndex: =15
@@ -1430,6 +1432,7 @@ ThirdScreen As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
+        Height: =100
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
@@ -1440,6 +1443,7 @@ ThirdScreen As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =15
         Text: ="Edit"
+        Width: =150
         X: =928
         Y: =119
         ZIndex: =16
@@ -1454,6 +1458,7 @@ ThirdScreen As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
+        Height: =100
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
@@ -1463,6 +1468,7 @@ ThirdScreen As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =15
         Text: ="Reset"
+        Width: =150
         X: =722
         Y: =119
         ZIndex: =17
@@ -1477,6 +1483,7 @@ ThirdScreen As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
+        Height: =100
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
@@ -1486,6 +1493,7 @@ ThirdScreen As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =15
         Text: ="Back"
+        Width: =150
         X: =63
         Y: =119
         ZIndex: =18
