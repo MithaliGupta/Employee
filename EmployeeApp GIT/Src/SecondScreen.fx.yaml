@@ -716,6 +716,8 @@ SecondScreen As screen:
         Items: |+
             =SortByColumns(Filter([@EmployeeIncidentTracker],StartsWith(Title,SerchTextBox.Text)),"ID",Descending)
             
+                 
+            
         Layout: =Layout.Vertical
         TemplateFill: |-
             =//If(ThisItem.IsSelected,RGBA(69,105,206,.2),RGBA(244,244,244,0))
