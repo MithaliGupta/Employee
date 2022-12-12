@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 35,
+                  "charLength": 44,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "LookUp(ListLogin,UID=Title,EmpName)"
+                    "text": "LookUp(ListLogin,ThisItem.Title=UID,EmpName)"
                   }
                 }
               },

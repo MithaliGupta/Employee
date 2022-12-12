@@ -390,19 +390,19 @@ ThirdScreen As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["DisplayName","Email","Picture"]
+                DisplayFields: =["Email","Email","Picture"]
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.'Segoe UI'
                 HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
                 IsSearchable: =false
-                Items: =LookUp(ListLogin,UID=Title,EmpName)
+                Items: =LookUp(ListLogin,ThisItem.Title=UID,EmpName)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(0, 120, 212, 1)
-                SearchFields: =["DisplayName"]
+                SearchFields: =["Email"]
                 SearchItems: =[]
                 SelectionFill: =RGBA(0, 120, 212, 1)
                 SelectMultiple: =false
@@ -623,13 +623,16 @@ ThirdScreen As screen:
                 HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@EmployeeIncidentTracker].IsAgent_x003f_)
+                IsSearchable: =false
+                Items: |+
+                    =//Choices([@EmployeeIncidentTracker].IsAgent_x003f_)
+                    
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(0, 120, 212, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(EmployeeIncidentTracker.IsAgent_x003f_,DataCardValue32.SearchText)
+                SearchItems: =[]
                 SelectionFill: =RGBA(0, 120, 212, 1)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
