@@ -714,6 +714,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "SecondScreen.Icon2_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SecondScreen.Icon2_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "SecondScreen",
+                "type": "SecondScreen.Icon2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SecondScreen.Icon2_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SecondScreen.Icon2_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "SecondScreen",
+                "type": "SecondScreen.Icon2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "SecondScreen.Icon2_3.AccessibleLabel"
                 }
               ],
@@ -1284,19 +1344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "SecondScreen.Icon2_2.AccessibleLabel"
+                  "fullyQualifiedName": "SecondScreen.Icon2_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "SecondScreen.Icon2_2.AccessibleLabel",
+                  "fullyQualifiedName": "SecondScreen.Icon2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "SecondScreen",
-                "type": "SecondScreen.Icon2_2"
+                "type": "SecondScreen.Icon2_1"
               }
             }
           ],
@@ -1314,19 +1374,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "SecondScreen.Icon2_2.TabIndex"
+                  "fullyQualifiedName": "SecondScreen.Icon2_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "SecondScreen.Icon2_2.TabIndex",
+                  "fullyQualifiedName": "SecondScreen.Icon2_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "SecondScreen",
-                "type": "SecondScreen.Icon2_2"
+                "type": "SecondScreen.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SecondScreen.Icon4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SecondScreen.Icon4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "SecondScreen",
+                "type": "SecondScreen.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SecondScreen.Icon4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SecondScreen.Icon4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "SecondScreen",
+                "type": "SecondScreen.Icon4"
               }
             }
           ],

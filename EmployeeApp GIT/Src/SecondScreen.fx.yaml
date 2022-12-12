@@ -203,6 +203,8 @@ SecondScreen As screen:
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.PhotosPictures
+        OnSelect: |-
+            =UpdateContext({VarVis:true})
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -1208,4 +1210,65 @@ SecondScreen As screen:
         X: =1221
         Y: =121
         ZIndex: =41
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =45
+
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =698
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Visible: =VarVis
+            Width: =1366
+            ZIndex: =42
+
+        Image5 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =647
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image_2022_12_09T06_25_18_531Z
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =VarVis
+            Width: =1307
+            X: =4
+            Y: =16
+            ZIndex: =43
+
+        Icon4 As icon.CancelBadge:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.CancelBadge
+            OnSelect: |-
+                =UpdateContext({VarVis:false})
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =VarVis
+            X: =1232
+            Y: =20
+            ZIndex: =44
 
