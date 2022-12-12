@@ -714,10 +714,17 @@ SecondScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =293
         Items: |-
-            =//EmployeeIncidentTracker
-            
-            SortByColumns(Filter([@EmployeeIncidentTracker],StartsWith(Title,SerchTextBox.Text)),"ID",Descending)
-            //SortByColumns(Filter([@EmployeeIncidentTracker],StartsWith(Title,SerchTextBox.Text)),"Title",If(SortDescending1,Descending,Ascending))
+            =SortByColumns(
+                Filter(
+                    [@EmployeeIncidentTracker],
+                    StartsWith(
+                        Title,
+                        SerchTextBox.Text
+                    )
+                ),
+                "ID",
+                Descending
+            )
         Layout: =Layout.Vertical
         TemplateFill: |-
             =//If(ThisItem.IsSelected,RGBA(69,105,206,.2),RGBA(244,244,244,0))
@@ -1073,7 +1080,12 @@ SecondScreen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
-        OnSelect: =
+        OnSelect: |-
+            =UpdateContext({LvarFilterByFilter: ""});
+            If(
+                IsBlank(LvarFilterByFilter),
+                UpdateContext({LvarFilterByFilter: "Open"})
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
