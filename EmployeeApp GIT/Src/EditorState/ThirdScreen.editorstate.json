@@ -7401,7 +7401,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DOJ_DataCard3",
-      "ParentIndex": 7,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7555,7 +7555,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EmpName_DataCard3",
-      "ParentIndex": 6,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11928,7 +11928,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IncidentCategory_DataCard3",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12090,7 +12090,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IncidentDescription_DataCard3",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12257,7 +12257,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IncidentImage_DataCard2",
-      "ParentIndex": 9,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12416,7 +12416,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IncidentSubCategory_DataCard3",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14153,7 +14153,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Priority_DataCard3",
-      "ParentIndex": 3,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17534,7 +17534,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Status_DataCard3",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
