@@ -1344,6 +1344,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "LoginScreen.VarShowError"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.VarShowError",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "VarShowError",
+                "module": "LoginScreen",
+                "type": "LoginScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "SecondScreen.LVarEdit"
                 }
               ],
