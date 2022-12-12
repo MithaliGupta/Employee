@@ -1040,11 +1040,11 @@ ThirdScreen As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Priority"
             Default: =ThisItem.Priority
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@EmployeeIncidentTracker],DataSourceInfo.DisplayName,"Priority")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =true
+            Required: =false
             Update: =DataCardValue27.Selected
             Width: =455
             X: =1
@@ -1157,11 +1157,11 @@ ThirdScreen As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Status"
             Default: =ThisItem.Status
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@EmployeeIncidentTracker],DataSourceInfo.DisplayName,"Status")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =true
+            Required: =false
             Update: =DataCardValue28.Selected
             Width: =455
             X: =2
