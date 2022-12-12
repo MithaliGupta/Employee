@@ -1055,7 +1055,6 @@ SecondScreen As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Text: ="Closed"
-        VerticalAlign: =VerticalAlign.Bottom
         Width: =270
         X: =1060
         Y: =90
@@ -1074,13 +1073,11 @@ SecondScreen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Self.Fill
-        OnSelect: |-
-            =UpdateContext({LVarEdit:true})
+        OnSelect: =
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Text: ="Open"
-        VerticalAlign: =VerticalAlign.Bottom
         Width: =270
         X: =200
         Y: =90
@@ -1104,7 +1101,6 @@ SecondScreen As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Text: ="Awaiting Confirmation"
-        VerticalAlign: =VerticalAlign.Bottom
         Width: =270
         X: =770
         Y: =90
@@ -1128,7 +1124,6 @@ SecondScreen As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Text: ="On Hold"
-        VerticalAlign: =VerticalAlign.Bottom
         Width: =270
         X: =486
         Y: =90
@@ -1143,11 +1138,11 @@ SecondScreen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Size: =13
+        FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Open"))
         Width: =50
-        X: =310
-        Y: =109
+        X: =243
+        Y: =128
         ZIndex: =38
 
     Label6_1 As label:
@@ -1159,11 +1154,11 @@ SecondScreen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Size: =13
+        FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "On hold"))
         Width: =50
-        X: =583
-        Y: =103
+        X: =521
+        Y: =125
         ZIndex: =39
 
     Label6_2 As label:
@@ -1175,11 +1170,11 @@ SecondScreen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Size: =13
+        FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Awaiting confirmation"))
         Width: =50
-        X: =873
-        Y: =105
+        X: =777
+        Y: =128
         ZIndex: =40
 
     Label6_3 As label:
@@ -1191,10 +1186,10 @@ SecondScreen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Size: =13
+        FontWeight: =FontWeight.Semibold
         Text: =CountRows(Filter(EmployeeIncidentTracker,Status.Value = "Closed"))
         Width: =50
-        X: =1158
-        Y: =105
+        X: =1112
+        Y: =128
         ZIndex: =41
 
