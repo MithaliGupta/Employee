@@ -222,7 +222,8 @@ SecondScreen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Support
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(EmployeeIncidentTracker)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -280,7 +281,7 @@ SecondScreen As screen:
         Font: =Font.'Segoe UI'
         Height: =28
         Size: =12
-        Text: ="Account"
+        Text: ="Log Out"
         Width: =71
         X: =1245
         Y: =740

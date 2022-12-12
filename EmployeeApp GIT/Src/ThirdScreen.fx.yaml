@@ -95,7 +95,7 @@ ThirdScreen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Support
+        Icon: =Icon.Reload
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -121,7 +121,7 @@ ThirdScreen As screen:
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =30
-        X: =1266
+        X: =1273
         Y: =710
         ZIndex: =7
 
@@ -155,7 +155,7 @@ ThirdScreen As screen:
         Size: =12
         Text: ="Log out"
         Width: =71
-        X: =1245
+        X: =1253
         Y: =740
         ZIndex: =9
 
@@ -170,9 +170,9 @@ ThirdScreen As screen:
         Font: =Font.'Segoe UI'
         Height: =28
         Size: =12
-        Text: ="Chat Support"
-        Width: =114
-        X: =814
+        Text: ="Refresh"
+        Width: =72
+        X: =835
         Y: =740
         ZIndex: =10
 
