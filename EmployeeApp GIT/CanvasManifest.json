@@ -95,11 +95,11 @@
     "Id": "e74ac97c-d0bc-4910-bf3b-6b01720bd234",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "EmployeeSideApp(02Dec2022)",
+    "Name": "Employee Incident App",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
-    "AppName": "EmployeeSideApp(02Dec2022)",
+    "AppName": "Employee Incident App",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
