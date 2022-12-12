@@ -1044,7 +1044,6 @@ SecondScreen As screen:
         Fill: =RGBA(68, 203, 121, 0.26)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
         Height: =110
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
@@ -1055,7 +1054,6 @@ SecondScreen As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =15
         Text: ="Closed"
         VerticalAlign: =VerticalAlign.Bottom
         Width: =270
@@ -1072,7 +1070,6 @@ SecondScreen As screen:
         Fill: =RGBA(69, 105, 206, 0.21)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
         Height: =110
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
@@ -1082,7 +1079,6 @@ SecondScreen As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =15
         Text: ="Open"
         VerticalAlign: =VerticalAlign.Bottom
         Width: =270
@@ -1099,7 +1095,6 @@ SecondScreen As screen:
         Fill: =RGBA(226, 109, 92, 0.26)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
         Height: =110
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
@@ -1108,7 +1103,6 @@ SecondScreen As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =12
         Text: ="Awaiting Confirmation"
         VerticalAlign: =VerticalAlign.Bottom
         Width: =270
@@ -1125,7 +1119,6 @@ SecondScreen As screen:
         Fill: =RGBA(224, 193, 58, 0.31)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
         Height: =110
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
@@ -1134,7 +1127,6 @@ SecondScreen As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Size: =15
         Text: ="On Hold"
         VerticalAlign: =VerticalAlign.Bottom
         Width: =270
