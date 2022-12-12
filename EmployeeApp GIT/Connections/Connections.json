@@ -1,0 +1,38 @@
+{
+  "ea0e6d86-95a6-4fd5-a737-f7329092ae8f": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://omnepresent0.sharepoint.com/sites/IncidentManagement": {
+        "dataSources": {
+          "AgentIncidentTracker": {
+            "tableName": "48a9c30a-1b2f-4e5d-8988-e61bf4aaee16"
+          },
+          "EmployeeIncidentTracker": {
+            "tableName": "c3d035ae-3084-4a16-9f49-864510365707"
+          },
+          "ListLogin": {
+            "tableName": "b88224b4-7528-4f60-9a04-bba02bf7548c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "EmployeeIncidentTracker",
+      "AgentIncidentTracker",
+      "ListLogin"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ea0e6d86-95a6-4fd5-a737-f7329092ae8f"
+  }
+}
