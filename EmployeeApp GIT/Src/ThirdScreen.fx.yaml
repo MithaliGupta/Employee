@@ -256,7 +256,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Emp Code"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -370,7 +370,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Incident Category"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -487,7 +487,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Incident SubCategory"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -839,7 +839,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Incident Description"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -953,7 +953,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Emp Name"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1179,7 +1179,7 @@ ThirdScreen As screen:
                 Height: =34
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Is Agent? "
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1297,7 +1297,7 @@ ThirdScreen As screen:
                 Height: =33
                 PaddingLeft: =0
                 Size: =12
-                Text: =Parent.DisplayName
+                Text: ="Incident Image"
                 Width: =147
                 Wrap: =false
                 X: =30
