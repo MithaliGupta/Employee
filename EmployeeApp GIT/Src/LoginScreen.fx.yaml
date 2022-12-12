@@ -196,7 +196,12 @@ LoginScreen As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
         OnSelect: |-
-            =If(!IsBlank(LookUp(ListLogin,Title=TIUserName.Text And Password= TIPassword.Text).Title),Navigate(SecondScreen,ScreenTransition.None))
+            =Set(
+                UID,
+                TIUserName.Text
+            );
+            
+            If(!IsBlank(LookUp(ListLogin,Title=TIUserName.Text And Password= TIPassword.Text).Title),Navigate(SecondScreen,ScreenTransition.None))
             //UpdateContext({VarShowError:true}))
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
