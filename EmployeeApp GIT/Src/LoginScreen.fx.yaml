@@ -201,7 +201,6 @@ LoginScreen As screen:
                 UID,
                 TIUserName.Text
             );
-            
             Set(
                 VarEName,
                 LookUp(
@@ -210,8 +209,19 @@ LoginScreen As screen:
                     EmpName
                 )
             );
-            
-            If(!IsBlank(LookUp(ListLogin,Title=TIUserName.Text And Password= TIPassword.Text).Title),Navigate(SecondScreen,ScreenTransition.None),UpdateContext({VarShowError:true}))
+            If(
+                !IsBlank(
+                    LookUp(
+                        ListLogin,
+                        Title = TIUserName.Text And Password = TIPassword.Text
+                    ).Title
+                ),
+                Navigate(
+                    SecondScreen,
+                    ScreenTransition.None
+                ),
+                UpdateContext({VarShowError: true})
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

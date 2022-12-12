@@ -715,18 +715,7 @@ SecondScreen As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =293
-        Items: |-
-            =SortByColumns(
-                Filter(
-                    [@EmployeeIncidentTracker],
-                    StartsWith(
-                        Title,
-                        SerchTextBox.Text
-                    )
-                ),
-                "ID",
-                Descending
-            )
+        Items: =SortByColumns(Filter([@EmployeeIncidentTracker],StartsWith(Title,SerchTextBox.Text)),"ID",Descending)
         Layout: =Layout.Vertical
         TemplateFill: |-
             =//If(ThisItem.IsSelected,RGBA(69,105,206,.2),RGBA(244,244,244,0))
