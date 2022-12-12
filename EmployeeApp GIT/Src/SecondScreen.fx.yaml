@@ -1035,3 +1035,98 @@ SecondScreen As screen:
         Y: =5
         ZIndex: =33
 
+    Button2_4 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(68, 203, 121, 0.26)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =Self.Fill
+        OnSelect: |-
+            =SubmitForm(FormThreeInOne);Notify("Your Record has been saved",NotificationType.Success);
+            Navigate(SecondScreen)
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =15
+        Text: ="Closed"
+        X: =1156
+        Y: =139
+        ZIndex: =34
+
+    Button2_5 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(69, 105, 206, 0.21)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =Self.Fill
+        OnSelect: |-
+            =UpdateContext({LVarEdit:true})
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =15
+        Text: ="Open"
+        X: =579
+        Y: =148
+        ZIndex: =35
+
+    Button2_6 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(226, 109, 92, 0.26)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =Self.Fill
+        OnSelect: =ResetForm(FormThreeInOne)
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =12
+        Text: ="Awaiting Confirmation"
+        X: =973
+        Y: =141
+        ZIndex: =36
+
+    Button2_7 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(224, 193, 58, 0.31)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =Self.Fill
+        OnSelect: =Navigate(SecondScreen,ScreenTransition.None)
+        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+        Size: =15
+        Text: ="On Hold"
+        X: =776
+        Y: =143
+        ZIndex: =37
+
